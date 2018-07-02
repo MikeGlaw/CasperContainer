@@ -5,7 +5,7 @@ wget https://ftp.mozilla.org/pub/firefox/releases/59.0.2/linux-x86_64/en-US/fire
 tar -xvf firefox-59.0.2.tar.bz2
 
 sudo mv firefox /usr/lib/
-sudo ln –sf /usr/lib/firefox/firefox /usr/bin/firefox
+sudo ln -sf /usr/lib/firefox/firefox /usr/bin/firefox
 sudo rm /usr/lib/firefox/*update*
 export SLIMERJSLAUNCHER="/usr/bin/firefox:$PATH"
 
