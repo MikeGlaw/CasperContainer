@@ -17,5 +17,5 @@ sudo ln -sf `pwd`/slimerjs /usr/local/bin/slimerjs
 sudo sed -i "/MaxVersion=/c\MaxVersion=59.*" application.ini
 git clone git://github.com/casperjs/casperjs.git
 sudo ln -sf `pwd`/casperjs/bin/casperjs /usr/local/bin/casperjs
-export "SLIMERJSLAUNCHER=/usr/bin/firefox"
+export SLIMERJSLAUNCHER=/usr/bin/firefox
 sudo shutdown -r now
