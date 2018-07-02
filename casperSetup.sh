@@ -20,4 +20,4 @@ sudo sed -i "/MaxVersion=/c\MaxVersion=59.*" application.ini
 git clone git://github.com/casperjs/casperjs.git
 sudo ln -sf `pwd`/casperjs/bin/casperjs /usr/local/bin/casperjs
 
-sudo shutdown -r now
+#sudo shutdown -r now
