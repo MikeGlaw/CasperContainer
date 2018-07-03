@@ -1,8 +1,8 @@
 #!/bin/bash
 #This script assumes that firefox is not installed or has been uninstalled.
-apt update -y
-apt upgrade -y
-apt-get install wget -y
+#apt update -y
+#apt upgrade -y
+#apt-get install wget -y
 wget https://ftp.mozilla.org/pub/firefox/releases/59.0.2/linux-x86_64/en-US/firefox-59.0.2.tar.bz2
 tar -xvf firefox-59.0.2.tar.bz2
 
